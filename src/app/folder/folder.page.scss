@@ -26,3 +26,6 @@ ion-menu-button {
 #container a {
   text-decoration: none;
 }
+ion-content {
+  --background: #ffff00 url('../../assets/fundo.png') no-repeat center center / cover !important;
+}
