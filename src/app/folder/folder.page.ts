@@ -19,4 +19,7 @@ export class FolderPage implements OnInit {
   cliente(){
     this.navCtrl.navigateForward(['/logincliente']);
   }
+  podologo(){
+    this.navCtrl.navigateForward(['/loginpodologo']);
+  }
 }

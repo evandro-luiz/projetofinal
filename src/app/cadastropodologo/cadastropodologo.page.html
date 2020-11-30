@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Cadastro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+
+    <ion-item>
+      <ion-label position="floating"><ion-icon name="person-circle-outline"> </ion-icon>Nome</ion-label>
+      <ion-input type="text" ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating"><ion-icon name="at-outline"></ion-icon> Email</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating"><ion-icon name="lock-closed-outline"></ion-icon> Senha</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating"><ion-icon name="call-outline"></ion-icon> Número</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating"><ion-icon name="document-text-outline"></ion-icon> CPF</ion-label>
+      <ion-input type="text" ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating"> <ion-icon name="business-outline"></ion-icon> Estado</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating"><ion-icon name="business-sharp"></ion-icon> Cidade</ion-label>
+      <ion-input type="text" ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating"><ion-icon name="send-sharp"></ion-icon> CEP</ion-label>
+      <ion-input type="text" ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating"><ion-icon name="home-sharp"></ion-icon> Endereço</ion-label>
+      <ion-input type="text" ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating"><ion-icon name="add-outline"></ion-icon> Complemento</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-button (click)="cadastrar()" style="margin-top: 5%;" color="success" expand="full">Cadastrar</ion-button>
+
+</ion-content>

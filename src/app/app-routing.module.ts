@@ -14,6 +14,30 @@ const routes: Routes = [
   {
     path: 'logincliente',
     loadChildren: () => import('./logincliente/logincliente.module').then( m => m.LoginclientePageModule)
+  },
+  {
+    path: 'loginpodologo',
+    loadChildren: () => import('./loginpodologo/loginpodologo.module').then( m => m.LoginpodologoPageModule)
+  },
+  {
+    path: 'cadastropodologo',
+    loadChildren: () => import('./cadastropodologo/cadastropodologo.module').then( m => m.CadastropodologoPageModule)
+  },
+  {
+    path: 'cadastrocliente',
+    loadChildren: () => import('./cadastrocliente/cadastrocliente.module').then( m => m.CadastroclientePageModule)
+  },
+  {
+    path: 'homecliente',
+    loadChildren: () => import('./homecliente/homecliente.module').then( m => m.HomeclientePageModule)
+  },
+  {
+    path: 'homepodologo',
+    loadChildren: () => import('./homepodologo/homepodologo.module').then( m => m.HomepodologoPageModule)
+  },
+  {
+    path: 'esq-senha',
+    loadChildren: () => import('./esq-senha/esq-senha.module').then( m => m.EsqSenhaPageModule)
   }
 ];
 

@@ -8,14 +8,22 @@
 </ion-header>
 
 <ion-content>
+  <ion-img style="margin-top:2%" class="img-responsive" src="/assets/logonovo.jpg"></ion-img>
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">{{ folder }}</ion-title>
     </ion-toolbar>
   </ion-header>
-
-    <ion-button style="margin-top: 77%;margin-bottom: 20px;" expand="block" (click)="cliente()">Cliente</ion-button>
-  
+  <div class="ion-text-center">
+    <h3 style="color:	rgb(7, 44, 0)	;">Seja Bem-Vindo ao PÉrfeição</h3>
+    <h5 style="color:	rgb(7, 44, 0);">Deseja entra como</h5>
+  </div>
+    <ion-button style="margin-top: 5%;" color="success" expand="block" (click)="cliente()">Cliente</ion-button>
+    <div class="ion-text-center">
+      
+      <h5 style="color:	rgb(7, 44, 0);">ou como</h5>
+    </div>
+    <ion-button style="margin-top: 1%" color="tertiary" expand="block" (click)="podologo()">Podólogo</ion-button>
 
   
 </ion-content>

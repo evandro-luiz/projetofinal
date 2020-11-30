@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-logincliente',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginclientePage implements OnInit {
 
-  constructor() { }
+  constructor( private navCtrl : NavController) { }
 
   ngOnInit() {
   }
-
+  cadcliente(){
+    this.navCtrl.navigateForward(['/cadastrocliente']);
+  }
+  esqsenha(){
+    this.navCtrl.navigateForward(['/esq-senha']);
+  }
 }
