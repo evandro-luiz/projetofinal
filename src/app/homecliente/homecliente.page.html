@@ -1,9 +1,17 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>homecliente</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-buttons slot="start">
+  <ion-menu-button></ion-menu-button>
+</ion-buttons>
 
 <ion-content>
+  <ion-img style="margin-top:2%" class="img-responsive" src="/assets/logo1.jpg"></ion-img>
+  <div class="ion-text-center" style="margin-top: 4%;">
+    <ion-title>Bem-Vinda(o)</ion-title>
+  </div>
+
+  <ion-button style="margin-bottom: 5%;margin-top: 5%;" color="tertiary" expand="block"  (click)="marcar()">Marque uma nova consulta</ion-button>
+  <ion-button color="tertiary" expand="block"  (click)="visualizar()">Verificar consultas marcadas</ion-button>
+
+  
+
 
 </ion-content>

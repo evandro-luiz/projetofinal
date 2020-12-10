@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-cadastrocliente',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CadastroclientePage implements OnInit {
 
-  constructor() { }
+  constructor( private navCtrl : NavController) { }
 
   ngOnInit() {
   }
-
+  fincadcliente(){
+    this.navCtrl.navigateForward(['/fincadcliente']);
+  }
 }

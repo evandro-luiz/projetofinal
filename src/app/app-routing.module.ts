@@ -38,7 +38,41 @@ const routes: Routes = [
   {
     path: 'esq-senha',
     loadChildren: () => import('./esq-senha/esq-senha.module').then( m => m.EsqSenhaPageModule)
-  }
+  },
+  {
+    path: 'fincadcliente',
+    loadChildren: () => import('./fincadcliente/fincadcliente.module').then( m => m.FincadclientePageModule)
+  },
+  {
+    path: 'fincadpodologo',
+    loadChildren: () => import('./fincadpodologo/fincadpodologo.module').then( m => m.FincadpodologoPageModule)
+  },
+  {
+    path: 'confenviosenha',
+    loadChildren: () => import('./confenviosenha/confenviosenha.module').then( m => m.ConfenviosenhaPageModule)
+  },
+  {
+    path: 'marcarconsulta',
+    loadChildren: () => import('./marcarconsulta/marcarconsulta.module').then( m => m.MarcarconsultaPageModule)
+  },
+  {
+    path: 'atualizarconsulta',
+    loadChildren: () => import('./atualizarconsulta/atualizarconsulta.module').then( m => m.AtualizarconsultaPageModule)
+  },
+  {
+    path: 'atualizarcliente',
+    loadChildren: () => import('./atualizarcliente/atualizarcliente.module').then( m => m.AtualizarclientePageModule)
+  },
+  {
+    path: 'atualizarpodologo',
+    loadChildren: () => import('./atualizarpodologo/atualizarpodologo.module').then( m => m.AtualizarpodologoPageModule)
+  },
+  
+  {
+    path: 'visualizarconsulta',
+    loadChildren: () => import('./visualizarconsulta/visualizarconsulta.module').then( m => m.VisualizarconsultaPageModule)
+  },
+ 
 ];
 
 @NgModule({

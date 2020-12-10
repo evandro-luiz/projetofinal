@@ -1,20 +1,13 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-menu-button></ion-menu-button>
-    </ion-buttons>
-    <ion-title>Cadastro</ion-title>
-  </ion-toolbar>
-</ion-header>
 
 <ion-content>
+  <ion-img style="margin-top:2%" class="img-responsive" src="/assets/logo1.jpg"></ion-img>
+  <div class="ion-text-center" style="margin-top: 4%;">
+    <ion-title>Cadastro do Podólogo</ion-title>
+  </div>
 
 
-
-    <ion-item>
-      <ion-label position="floating"><ion-icon name="person-circle-outline"> </ion-icon>Nome</ion-label>
-      <ion-input type="text" ></ion-input>
-    </ion-item>
+    
+      
     <ion-item>
       <ion-label position="floating"><ion-icon name="at-outline"></ion-icon> Email</ion-label>
       <ion-input type="text"></ion-input>
@@ -24,35 +17,8 @@
       <ion-label position="floating"><ion-icon name="lock-closed-outline"></ion-icon> Senha</ion-label>
       <ion-input type="text"></ion-input>
     </ion-item>
-    <ion-item>
-      <ion-label position="floating"><ion-icon name="call-outline"></ion-icon> Número</ion-label>
-      <ion-input type="text"></ion-input>
-    </ion-item>
-    <ion-item>
-      <ion-label position="floating"><ion-icon name="document-text-outline"></ion-icon> CPF</ion-label>
-      <ion-input type="text" ></ion-input>
-    </ion-item>
-    <ion-item>
-      <ion-label position="floating"> <ion-icon name="business-outline"></ion-icon> Estado</ion-label>
-      <ion-input type="text"></ion-input>
-    </ion-item>
-    <ion-item>
-      <ion-label position="floating"><ion-icon name="business-sharp"></ion-icon> Cidade</ion-label>
-      <ion-input type="text" ></ion-input>
-    </ion-item>
-    <ion-item>
-      <ion-label position="floating"><ion-icon name="send-sharp"></ion-icon> CEP</ion-label>
-      <ion-input type="text" ></ion-input>
-    </ion-item>
-    <ion-item>
-      <ion-label position="floating"><ion-icon name="home-sharp"></ion-icon> Endereço</ion-label>
-      <ion-input type="text" ></ion-input>
-    </ion-item>
-    <ion-item>
-      <ion-label position="floating"><ion-icon name="add-outline"></ion-icon> Complemento</ion-label>
-      <ion-input type="text"></ion-input>
-    </ion-item>
+    
 
-    <ion-button (click)="cadastrar()" style="margin-top: 5%;" color="success" expand="full">Cadastrar</ion-button>
+    <ion-button (click)="cad()" style="margin-top: 5%;" color="success" expand="full">Avançar</ion-button>
 
 </ion-content>

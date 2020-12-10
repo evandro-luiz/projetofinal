@@ -18,4 +18,7 @@ export class LoginpodologoPage implements OnInit {
 esqsenha(){
   this.navCtrl.navigateForward(['/esq-senha']);
 }
+login(){
+  this.navCtrl.navigateForward(['/homepodologo']);
+}
 }

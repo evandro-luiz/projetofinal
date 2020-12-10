@@ -12,8 +12,9 @@ export class EsqSenhaPage implements OnInit {
 
   ngOnInit() {
   }
-  cadpodologo(){
-    this.navCtrl.navigateForward(['/cadastropodologo']);
+  confenviosenha(){
+    this.navCtrl.navigateForward(['/confenviosenha']);
 }
+
 
 }
